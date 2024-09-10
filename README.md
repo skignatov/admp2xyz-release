@@ -9,6 +9,9 @@ admp2xyz.exe
 Input files:
 admp2xyz.inp          - main input file
 
+See readme.txt for the possible commands in the input file
+
+
 Commands in the input files:
 ADMP <admp_log_file>			! ADMP dump file name (log file of G09/G16)
 OUT  <results_file_name>		! Results files names
