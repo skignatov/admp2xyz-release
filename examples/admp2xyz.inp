@@ -1,0 +1,10 @@
+admp mg9-admp-9.log
+out  mg9-admp-9.xyz
+iBeg  0
+iEnd  100000
+Each  10
+MaxS  60000
+Bond 12 12 3.5
+Nacf 4000
+
+
