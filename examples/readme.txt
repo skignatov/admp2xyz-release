@@ -1,5 +1,3 @@
-# admp2xyz-release
-
 admp2xyz - a program to convert ADMP log files of G09/G16 to xyz files which can be viewed by moltran (moltran <filename> /nxyz0@geostep /all /nosym /c5000 )
 
 Run command (under Windows):  
@@ -11,7 +9,7 @@ admp2xyz.inp          - main input file
 
 Commands in the input files:
 ADMP <admp_log_file>			! ADMP dump file name (log file of G09/G16)
-OUT  <results_file_name>		! Results files names
+OUT  <results_file_nema>		! Results files name
 iBeg <integer>				! Starting step of ADMP trajectory to be processed  [0]
 iEnd <integer>				! Final  step of ADMP trajectory to be processed    [1000000]
 Each <integer>				! Only Each <n> steps will be processed.            [1]
